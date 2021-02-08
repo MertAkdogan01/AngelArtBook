@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D6D9B"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/angela" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#4DA1E4"
+        android:foregroundTint="#FFEB3B"
+        android:gravity="center"
+        android:text="ANGEL SANAT KİTABINA HOŞ GELDİNİZ"
+        android:textAlignment="center"
+        android:textColor="#F1EDED"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#4DA1E4"
+        android:foregroundTint="#FFEB3B"
+        android:gravity="center"
+        android:text="Bu sanat galerisinde dünyanın en beğenilen nadir eserlerini göreceksiniz.Cennete girmeniz için cennet orkestrasını çalmanız lazım"
+        android:textAlignment="center"
+        android:textColor="#F1EDED"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/playSoundBtn"
+        android:layout_width="360dp"
+        android:layout_height="81dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#4DA1E4"
+        android:text="Cennet orkestrasını çal"
+        android:textColor="#F8F5F5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="360dp"
+        android:layout_height="81dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#4DA1E4"
+        android:onClick="heaven"
+        android:text="ŞİMDİ CENNETE GİDEBİLİRSİNİZ"
+        android:textColor="#ECE9E9" />
+
+</LinearLayout>
